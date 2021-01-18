@@ -1,0 +1,10 @@
+svg{
+    width: 150px;
+    height: -webkit-fill-available;
+    margin: 5vh;
+}
+
+.preto path, .preto circle, .preto rect{
+    fill: #ffffff;
+  }
+  

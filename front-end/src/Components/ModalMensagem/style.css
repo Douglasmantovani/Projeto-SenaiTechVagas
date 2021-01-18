@@ -1,0 +1,21 @@
+.ModalComponent{
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+}
+
+.PeliculaComponent{
+    background-color: rgb(00, 00, 00,0.63);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}

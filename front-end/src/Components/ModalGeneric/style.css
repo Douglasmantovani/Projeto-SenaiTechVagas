@@ -1,0 +1,65 @@
+#modalGeneric{
+    width: 100vw;
+    height: 200vw;
+    background: rgb(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1100;
+    padding: 5vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btnModalGeneric{
+    padding: 10px 30px;
+    background: #2A2E32;
+    border: solid transparent;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modalBox{
+    background: white;
+    width: 80vw;
+    height: 40vw;
+    border-radius: 10px;
+    padding: 2vw;
+}
+
+#fecharGeneric{
+    position: relative;
+    top: 0vw;
+    right: -70vw;
+    width: 40px;
+    height: 40px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: unset;
+    cursor: pointer;
+}
+
+.none{
+    display: none !important;
+}
+
+h3{
+    font-size: 24px;
+}
+
+input{
+    height: 36px;
+    width: 100%;
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 6px;
+}
+
+#modalGeneric > div{
+    overflow-y: auto;
+}

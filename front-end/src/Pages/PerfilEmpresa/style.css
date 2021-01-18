@@ -1,0 +1,93 @@
+#peliculaPerfilEmpresa {
+  background-color: rgb(00, 00, 00, 0.63);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalPerfilEmpresa {
+  width: 50%;
+  height: 60%;
+  overflow-y: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+}
+
+.BotoesPerfilEmpresa {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgPefilTexto {
+  display: block;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 380px;
+}
+.imgPefilTexto > h3 {
+  margin: 11px 0px;
+}
+#peliculaAlterarSenhaEmpresa {
+  background-color: rgb(00, 00, 00, 0.63);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalAlterarSenhaEmpresa {
+  width: 50%;
+  height: 40%;
+  overflow-y: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+}
+
+.Desrcicao-Perfil {
+  padding: 20px;
+}
+/* 
+.meioPerfil {
+  display: grid;
+  grid-template-columns: 33.3% 66.6%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+*/
+.EsquerdoPerfil {
+  background-color: white;
+  border-right: 1px solid #B9B9B9;
+  border-right-width: 0 2px 2px 0;
+}
+
+@media(max-width:700px){
+
+  .imgPefilTexto{
+      margin-bottom: 0px;
+  }
+}
+
+.preto #modalPerfilEmpresa{
+  background-color: #373737 !important;
+}
+
+.preto #modalAlterarSenhaEmpresa{
+  background-color: #373737 !important;
+}

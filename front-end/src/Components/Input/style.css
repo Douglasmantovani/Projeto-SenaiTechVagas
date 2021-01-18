@@ -1,0 +1,47 @@
+.Input{
+    padding: 1vw;
+}
+
+.InputCadastro{
+    height: 36px;
+    width: 100%;
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 6px;
+}
+
+.preto .lbInput{
+    color: white !important;
+}
+
+body > div.content-searchJobs > div:nth-child(1) > div{
+    height: 0;
+    padding: unset;
+}
+
+body > div.content-searchJobs > div:nth-child(1) > div > label{
+    position: absolute;
+    top: 18vw;
+    font-size: 2vw;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+body > div.content-searchJobs > div:nth-child(1) > div > input[type=text]{
+    position: absolute;
+    top: 25vw;
+    font-size: 3vw;
+    border: solid 1px darkred;
+    width: auto;
+    height: auto;
+}
+
+body > div.content-searchJobs > div:nth-child(1) > button{
+    position: absolute;
+    top: 25vw;
+    font-size: 2vw;
+    right: 26vw;
+    padding: .65vw;
+}
+

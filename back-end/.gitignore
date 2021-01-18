@@ -1,0 +1,9 @@
+# Ignora todos os arquivos e diretórios dentro da pasta com o nome bin
+bin/
+
+# Ignora todos os arquivos e diretórios dentro da pasta com o nome obj
+obj/
+
+**/.vs
+
+#DevSquad

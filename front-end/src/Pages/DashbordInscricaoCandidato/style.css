@@ -1,0 +1,116 @@
+.bannerDashboardCandidato {
+  background-image: url("../../assets//bannerVisualizarVaga.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vaga > p {
+  text-align: end;
+}
+
+.bannerDashboardCandidato > h2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.sessaoVagaInscritas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.InscricaoDashboardCandidato {
+  background-color: #aba5a561;
+}
+
+.title-vagas-inscritas > h3 {
+  font-size: 28px;
+  margin: 2em 0px;
+}
+
+.btnRevogar {
+  width: 246px;
+  height: 36px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background: #ff000f;
+  font-size: 16px;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.divisionBtnRevogar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btnRevogar {
+  width: 246px;
+  height: 36px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background: #ff000f;
+  font-size: 16px;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* resposivo  */
+
+@media only screen and (min-width: 100px) {
+  .bannerDashboardCandidato > h2 {
+    text-align: center;
+  }
+
+  .title-vagas-inscritas > h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+
+.preto #root > div > main > section > div.listadeVagas,
+.preto #root > div > main > section > div.title-vagas-inscritas{
+  background: unset !important;
+}
+
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div,
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div > div > h3,
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div > div > div.InfoVagas,
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div > div > div.TecnologiasVaga,
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div > div > div.InfoVagas > div:nth-child(n),
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div > div{
+  background: #373737 !important;
+}
+
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n){
+  background: #373737 !important;
+}
+
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div > div > div.divisionBtnRevogar{
+  background: #373737 !important;
+}
+
+
+.preto #root > div > main > section > div.listadeVagas > div:nth-child(n) > div > div > div.divisionBtnRevogar > button{
+color: yellow;
+cursor: pointer;
+}
+
+#root > div > main > section > div.listadeVagas > div:nth-child(n) > p{
+margin-right: 10px;
+}

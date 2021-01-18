@@ -1,0 +1,208 @@
+.content-searchJobs {
+  width: 100%;
+  background-color: #aba5a561;
+}
+
+.imgBackground-searchJobs {
+  width: 100%;
+}
+.vaga {
+  width: 98%;
+  display: grid;
+  grid-area: 1 / 2 / 6 / 3;
+  margin-top: 1vh;
+  border-radius: 1em;
+}
+.VagaCompleta {
+  width: 100%;
+}
+
+.VagaCompleta :hover {
+  cursor: pointer;
+}
+
+#filter-searchJobs {
+  display: grid;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 80%;
+  margin: 1vh 0 0 1vw;
+}
+
+.main-content-search-jobs{
+  display: grid;
+  grid-template-columns: 15% 85% ;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.btn-filter {
+  border-radius: 4px;
+  border: solid #767676 0.01px;
+  margin-top: 1vh;
+}
+
+button .btn-filter :hover{
+  cursor: auto;
+  background-color: #000;
+}
+
+#btn-all {
+  border-radius: 4px;
+  border: solid #767676 0.01px;
+}
+
+#filter-searchJobs p {
+  margin-top: 15px;
+}
+
+@media(max-width: 768px){
+  .main-content-search-jobs{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #filter-searchJobs{
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: 10px 15px 10px 10px;
+  }
+
+  #filter-searchJobs button{
+    text-align: center;
+  }
+
+  #filter-searchJobs p{
+    margin: 1vh 0 2vh 2vw;
+    align-items: center;
+  }
+
+  .btn-filter{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 1vw 0 1vw;
+    text-align: center;
+    width: 15vw;
+  }
+
+  .btn-search{
+    height: 28px;
+  }
+
+  .btn-active{
+    margin: 0 1vw 0 1vw;
+    text-align: center;
+    width: 18vw;
+  }
+}
+
+@media(max-width: 645px){
+  #filter-searchJobs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin:15vh 0 15vh 0;
+  }
+
+  .input-searchJobs{
+    padding: 4px;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-search{
+    height: 33px;
+  }
+  
+  .btn-filter{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-active{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.BarraPesquisa{
+  display:flex;
+  height: 250px;  
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background-image: url("../../assets/bannerBuscarVagas.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.PeliculaPesquisa{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  width: 50%;
+  height: 50px;
+  background-color: #5E2A2A;
+  opacity: 0.8;
+  box-sizing: border-box;
+  border: solid #5E2A2A;
+  padding: 15px;
+}
+
+.InputPesquisa{
+  display: flex;
+  width: 100%;
+  height: 25px;
+}
+
+#BotaoPesquisa{
+  margin-left: 10px;
+  width: 100px;
+  height: 29px;
+  background-color: #713C3C;
+  color: white;
+  border-radius: 5px;
+}
+
+@media(max-width: 425px){
+  .input-searchJobs{
+    padding: 10px;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+  }
+  .btn-search{
+    height: 36px;
+  }
+
+  .PeliculaPesquisa{
+    flex-direction: column;
+    height: 100px;
+  }
+}
+
+@media(max-width: 375px){
+  .btn-search{
+    height: 34px;
+  }
+}
+
+@media(max-width: 320px){
+  .btn-search{
+    height: 33px;
+  }
+}
+
+@media(min-width: 1800px){
+  .main-content-search-jobs{
+    font-size: large;
+  }
+}

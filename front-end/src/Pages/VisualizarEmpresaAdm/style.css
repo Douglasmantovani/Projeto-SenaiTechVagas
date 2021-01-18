@@ -1,0 +1,57 @@
+.MeioVizualizarAdm{
+    display: flex;
+    background-color: #F0F0F0;
+}
+
+.EsquerdoAdm{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+.DireitoAdm{
+  display: flex;
+  flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding: 2vh;
+}
+
+.ColumnTituloArea{
+  padding: 15px;
+}
+
+.BoxEmpresa{
+  background-color: #fff;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh;
+}
+
+.ImagemEmpresaAdm>img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+.BoxPerfil{
+  background-color: #fff;
+}
+
+.InputAdm{
+  width: 100%;
+}
+
+.hrAdm{
+  height: 100vh;
+  width: 5px;
+}
+
+#root > div > div.MeioVizualizarAdm > div.DireitoAdm > div > div.DadosDaEmpresa > div:nth-child(n){
+  margin-bottom: 10px;
+}

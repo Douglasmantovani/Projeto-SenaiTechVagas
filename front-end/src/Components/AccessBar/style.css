@@ -1,0 +1,59 @@
+.barra {
+    background: red;
+    padding: 1vw 2vw;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    height: -webkit-fill-available
+}
+
+.fa {
+    font-size: 1.5vw;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    margin-left: 2vw;
+}
+
+.topbar {
+    color: white;
+    font-size: .8vw !important;
+}
+
+.topbar:hover {
+    transition: .3s;
+    color: #2A2E32;
+}
+
+.topicon{
+    font-size: 1.5vw !important;
+}
+
+a {
+    text-decoration: unset;
+}
+
+b {
+    background: #2A2E32;
+    padding: .4vw;
+    border-radius: .5vw;
+    box-shadow: 1px 1px 5px #2A2E32;
+}
+
+@media (max-width: 767px) {
+  .barra{
+    display: none;
+  }
+}

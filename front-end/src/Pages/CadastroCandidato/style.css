@@ -1,0 +1,204 @@
+.registerApplicant {
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  box-sizing: content-box;
+  overflow-x: hidden;
+}
+
+.box-form {
+  display: grid;
+  grid-area: 1 / 1 / 6 / 4;
+  box-sizing: content-box;
+  padding: 3vw;
+}
+
+.form-content {
+  padding: 2vw;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px !important;
+  box-sizing: content-box;
+  width: 40vw !important;
+  height: -webkit-fill-available !important;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-content p {
+  height: unset;
+  margin-bottom: 5vh;
+}
+
+.form-content h1 {
+  font-size: 24px;
+  color: #005767;
+  padding: 1vw;
+}
+
+.form-content p {
+  color: #707070;
+}
+
+.form-content label {
+  color: #9b9b9b;
+}
+
+.Input {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.Input label {
+  width: 100%;
+}
+
+body > div.registerApplicant > div.box-form > div > div > button > label{
+  color: white;
+  font-weight: bold;
+}
+
+.imagemCadastro{
+  display: flex;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+}
+
+.imgCadastroPerfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cadastre {
+  height: 40px;
+  width: 80%;
+  border-radius: 6px;
+  background-color: #efefef;
+  border: none;
+  padding-left: 5px;
+}
+
+.form-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3vw;
+}
+
+.select label {
+  display: flex;
+  width: 80%;
+  margin-left: 5em;
+}
+
+.img-cadastro-candidato {
+  max-width: 538px;
+  width: 40vw;
+  height: 500%;
+  min-height: auto;
+  object-fit: cover;
+}
+
+.blue-button {
+  margin: unset;
+}
+
+.select-cadastroCandidato {
+  height: 40px;
+  width: 95%;
+  border-radius: 6px;
+  background-color: #efefef;
+  border: none;
+  padding-left: 5px;
+}
+
+.select-cadastroCandidato-title {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1em;
+}
+
+.blue-button{
+    margin: unset;
+    cursor: pointer;
+    padding: 12px 44px;
+}
+
+.preto .blue-button{
+    color: yellow;
+    text-decoration: underline !important;
+}
+
+.maior .blue-button{
+    font-size: 16px;
+}
+
+body > div.registerApplicant > div.box-form > div > h1{
+  color: red;
+}
+
+body > div.registerApplicant > div.box-form > div > form > div.form-button > button{
+  background-color: red;
+}
+
+@media (max-width: 900px) {
+  .box-img {
+    display: none;
+  }
+
+    .registerApplicant{
+        display: unset;
+    }
+
+    .box-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 280px !important;
+    }
+
+    body > div.registerApplicant > div.box-form > div > form > div:nth-child(11) > label{
+        margin: unset;
+    }
+}
+
+
+body > div.registerApplicant > div.box-form > div > div > button > label,
+body > div.registerCompany > div.box-form > div > div > button > label{
+  padding: 5% 20%;
+  background: red;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btSelecionar{
+  background: transparent !important;
+}
+
+/* access */
+
+.preto body > div.registerApplicant > div.box-form > div > div{
+  background: #373737 !important;
+}
+
+.preto body > div.registerApplicant > div.box-form > div > form > div:nth-child(n) > label{
+  color: white !important;
+}
+
+.preto body > div.registerApplicant > div.box-form > div > div > button > label{
+  color: yellow !important;
+  text-decoration: underline;
+}

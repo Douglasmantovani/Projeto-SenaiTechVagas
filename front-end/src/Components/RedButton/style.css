@@ -1,0 +1,9 @@
+.red-button{
+    background-color: #FF000F;
+    color: #FFF;
+    font-weight: bold;
+    width: 14vw;
+    height: 8vh;
+    border-radius: 5px;
+    border: none;
+}

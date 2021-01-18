@@ -1,0 +1,8 @@
+.InfoVaga>img{width: 25px;height: 25px; margin-right: 9px;}
+
+.InfoVaga{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    flex-wrap: wrap;}

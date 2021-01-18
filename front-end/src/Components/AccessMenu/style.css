@@ -1,0 +1,646 @@
+#bar > div {
+  height: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.block {
+  border: unset;
+  background: unset;
+  padding: unset;
+  margin: unset;
+}
+
+.kit {
+  height: -webkit-fill-available;
+}
+
+.access-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: aumentando1 1s;
+  padding: 1.5vw;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.access-icons1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: transparent;
+  animation: saindo1 1s linear;
+  visibility: hidden;
+}
+
+.font1 {
+  font-size: 6vw !important;
+}
+
+.none,
+.access-button,
+.pop-up {
+  transition: all 0.3s ease 0s;
+  display: none;
+}
+
+.botaoflutuante {
+  position: fixed;
+  width: 6.5vw;
+  height: 6.5vw;
+  float: left;
+  left: 1.2vw;
+  bottom: 1.2vw;
+  background-image: linear-gradient(305deg, #005767, red);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6.5vw;
+  text-decoration: none;
+  font-size: 6vw !important;
+  color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btnbar > div {
+  font-size: 6vw !important;
+}
+
+.botaoflutuante1 {
+  position: fixed;
+  width: 6.5vw;
+  height: 6.5vw;
+  float: left;
+  left: 1.2vw;
+  bottom: 1.2vw;
+  background-image: linear-gradient(305deg, #005767, red);
+  border-radius: 50vw;
+  text-align: center;
+  line-height: 6.5vw;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  z-index: 999;
+  font-size: 6vw !important;
+  color: #eaeaea;
+  transition: all 0.3s ease 0s;
+  animation: aumentando 1s;
+  padding-left: 6vw;
+  display: grid;
+}
+
+.none1 {
+  position: fixed;
+  width: 0px;
+  height: 6.5vw;
+  float: left;
+  left: 1.3vw;
+  bottom: 1.2vw;
+  background-image: linear-gradient(305deg, #005767, red);
+  border-radius: 50vw;
+  text-align: center;
+  line-height: 6.5vw;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  z-index: 999;
+  font-size: 6vw !important;
+  color: #eaeaea;
+  transition: all 0.3s ease 0s;
+  padding-left: 6vw;
+  display: grid;
+  animation: saindo 1s;
+}
+
+.preto h1,
+.preto h2,
+.preto h3,
+.preto h4,
+.preto h5,
+.preto h6,
+.preto,
+.preto p,
+.preto bdi,
+.preto div > div > div > div,
+.preto address,
+.preto section,
+.preto footer,
+.preto footer > div,
+.preto div > div > div > a > div,
+.preto #nav > li:nth-child(n) > a,
+.preto .vw-tooltip__item,
+.preto body > div.bodyPart > div.StartImage {
+  background-color: black !important;
+  color: white !important;
+  transition: all 0.3s ease 0s;
+  background-image: unset;
+}
+
+#bar > div {
+  background-color: transparent !important;
+  color: white !important;
+  transition: all 0.3s ease 0s;
+}
+
+.preto a,
+.preto > div > div > div > a > div > span,
+.preto #js-lang-list-button > span,
+.preto nav > a,
+.preto ul > li > a,
+.preto #navegacao > div > div > ul > a,
+.preto #nav > li:nth-child(n) > a,
+.preto #MainContent_Carrossel_rptDescricao_lnk_3 > div > *,
+.preto #MainContent_DestaquesHome_rptDescricao_lnk_0 > div > * {
+  color: yellow !important;
+  text-decoration-line: underline !important;
+  transition: all 0.3s ease 0s;
+}
+
+.preto .botaoflutuante,
+.preto .botaoflutuante1,
+.preto .header,
+.preto div > div > div > div,
+.preto .none1,
+.preto .menumodal {
+  background: #373737 !important;
+}
+
+#acess
+  > div.enabled
+  > div
+  > div
+  > div.vpw-controls.vpw-subtitles.vpw-playing
+  > div.vpw-controls-slider
+  > div
+  > div
+  > div {
+  background: white !important;
+}
+
+#acess > div.enabled > div > div > div:nth-child(8),
+#acess > div.enabled > div > div > div:nth-child(8) > div.vp-bounderies {
+  background: unset !important;
+}
+
+.maior h1 {
+  font-size: 50px;
+}
+
+.maior h2,
+.maior h3,
+.maior h4,
+.maior h5,
+.maior h6,
+.maior pre,
+.maior > div.central-textlogo > h1 > strong {
+  font-size: 26px;
+}
+
+.maior p,
+.maior a,
+.maior span,
+.maior div,
+.maior bdi,
+.maior strong,
+.maior small {
+  font-size: 20px;
+}
+/* Barra de acesso */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kit {
+  height: -webkit-fill-available;
+}
+
+.access-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: aumentando1 1s;
+  padding: 1.5vw;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.access-icons1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: transparent;
+  animation: saindo1 1s linear;
+  visibility: hidden;
+}
+
+.fa {
+  line-height: unset !important;
+  font-size: 2vw;
+}
+
+.font1 {
+  font-size: 6vw !important;
+}
+
+.none,
+.access-button,
+.pop-up {
+  transition: all 0.3s ease 0s;
+  display: none;
+}
+
+.botaoflutuante1 {
+  position: fixed;
+  width: 40vw;
+  height: 6.5vw;
+  float: left;
+  left: 1.2vw;
+  bottom: 1.2vw;
+  background-image: linear-gradient(305deg, #005767, red);
+  border-radius: 50vw;
+  text-align: center;
+  line-height: 6.5vw;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  z-index: 999;
+  font-size: 6vw !important;
+  color: #eaeaea;
+  transition: all 0.3s ease 0s;
+  animation: aumentando 1s;
+  padding-left: 6vw;
+  display: grid;
+}
+
+.none1 {
+  position: fixed;
+  width: 0px;
+  height: 6.5vw;
+  float: left;
+  left: 1.3vw;
+  bottom: 1.2vw;
+  background-image: linear-gradient(305deg, #005767, red);
+  border-radius: 50vw;
+  text-align: center;
+  line-height: 6.5vw;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  z-index: 999;
+  font-size: 6vw !important;
+  color: #eaeaea;
+  transition: all 0.3s ease 0s;
+  padding-left: 6vw;
+  display: grid;
+  animation: saindo 1s;
+}
+
+@media (min-width: 768px) {
+  @keyframes aumentando {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 40vw;
+    }
+  }
+
+  @keyframes saindo {
+    0% {
+      width: 40vw;
+    }
+    100% {
+      width: 0;
+    }
+  }
+
+  @keyframes aumentando1 {
+    0% {
+      color: transparent;
+    }
+    30% {
+      color: transparent;
+    }
+    100% {
+      color: white;
+    }
+  }
+
+  @keyframes saindo1 {
+    0% {
+      display: flex;
+      color: white;
+      visibility: initial;
+    }
+    30% {
+      color: transparent;
+    }
+    100% {
+      visibility: hidden;
+    }
+  }
+
+  @keyframes pintando {
+    0% {
+      background-image: linear-gradient(305deg, #005767, red);
+    }
+    100% {
+      background: red;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .fa {
+    font-size: 4.5vw !important;
+  }
+  .botaoflutuante,
+  .botaoflutuante1,
+  .none1 {
+    height: 12.5vw;
+  }
+  .botaoflutuante {
+    width: 12.5vw;
+    font-size: 12vw !important;
+  }
+  .botaoflutuante1 {
+    width: 70vw;
+  }
+  .none1 {
+    left: 4.5vw;
+  }
+  #btnbar > div {
+    font-size: 11vw !important;
+  }
+}
+
+@media (max-width: 479px) {
+  .fa {
+    font-size: 6.5vw !important;
+  }
+  .botaoflutuante,
+  .botaoflutuante1,
+  .none1 {
+    height: 18vw;
+  }
+  .botaoflutuante {
+    width: 18vw;
+    font-size: 17.5vw !important;
+  }
+  .botaoflutuante1 {
+    width: 90vw;
+  }
+  .none1 {
+    left: 6.5vw;
+  }
+  #bar > div {
+    justify-content: space-evenly;
+  }
+  .access-icons {
+    padding: 2vw;
+  }
+  #botao {
+    margin-left: 10vw;
+  }
+  #btnbar > div {
+    font-size: 16vw !important;
+  }
+}
+
+[vw] [vw-access-button] .access-button {
+  display: none;
+}
+
+/* STYLE ACCESS */
+
+.preto h1,
+.preto h2,
+.preto h3,
+.preto h4,
+.preto h5,
+.preto h6,
+.preto,
+.preto p,
+.preto bdi,
+.preto div > div > div > div,
+.preto address,
+.preto section,
+.preto footer,
+.preto footer > div,
+.preto div > div > div > a > div,
+.preto #nav > li:nth-child(n) > a,
+.preto .vw-tooltip__item,
+.preto body > div.bodyPart > div.QuadroDeVagas,
+.preto body > div.bodyPart > div.Depoimentos {
+  background-color: black !important;
+  color: white !important;
+  transition: all 0.3s ease 0s;
+}
+
+.preto a,
+.preto > div > div > div > a > div > span,
+.preto #js-lang-list-button > span,
+.preto nav > a,
+.preto ul > li > a,
+.preto #navegacao > div > div > ul > a,
+.preto #nav > li:nth-child(n) > a,
+.preto #MainContent_Carrossel_rptDescricao_lnk_3 > div > *,
+.preto #MainContent_DestaquesHome_rptDescricao_lnk_0 > div > *,
+.preto .BtnStartEmpresa,
+.preto .BtnStartCandidato,
+.preto
+  #root
+  > div
+  > div.bodyPart
+  > div.QuadroDeVagas
+  > div
+  > div:nth-child(n)
+  > div.LinkVaga
+  > h4,
+.preto
+  #root
+  > div
+  > div.bodyPart
+  > div.StartImage
+  > div.EmpresaCandidato
+  > div.Empresa
+  > div
+  > a
+  > button
+  > h2,
+.preto
+  #root
+  > div
+  > div.bodyPart
+  > div.StartImage
+  > div.EmpresaCandidato
+  > div.Candidato
+  > div
+  > a
+  > button
+  > h2 {
+  color: yellow !important;
+  text-decoration-line: underline !important;
+  transition: all 0.3s ease 0s;
+}
+
+.preto .botaoflutuante,
+.preto .botaoflutuante1,
+.preto .header,
+.preto .none1,
+.preto .menumodal,
+.preto #root > div > div.bodyPart > div.QuadroDeVagas > div > div:nth-child(n),
+.preto
+  #root
+  > div
+  > div.bodyPart
+  > div.QuadroDeVagas
+  > div
+  > div:nth-child(n)
+  > div.Space,
+.preto
+  #root
+  > div
+  > div.bodyPart
+  > div.QuadroDeVagas
+  > div
+  > div:nth-child(n)
+  > div.Space
+  > div,
+.preto
+  #root
+  > div
+  > div.bodyPart
+  > div.QuadroDeVagas
+  > div
+  > div:nth-child(n)
+  > div.LinkVaga,
+.preto #root > div > div.bodyPart > div.Depoimentos > div > div:nth-child(n) {
+  background: #373737 !important;
+}
+
+#acess
+  > div.enabled
+  > div
+  > div
+  > div.vpw-controls.vpw-subtitles.vpw-playing
+  > div.vpw-controls-slider
+  > div
+  > div
+  > div {
+  background: white !important;
+}
+
+#acess > div.enabled > div > div > div:nth-child(8),
+#acess > div.enabled > div > div > div:nth-child(8) > div.vp-bounderies {
+  background: unset !important;
+}
+
+.maior h1 {
+  font-size: 50px;
+}
+
+.maior h2,
+.maior h3,
+.maior h4,
+.maior h5,
+.maior h6,
+.maior pre,
+.maior > div.central-textlogo > h1 > strong {
+  font-size: 26px;
+}
+
+.maior p,
+.maior a,
+.maior span,
+.maior div,
+.maior bdi,
+.maior strong,
+.maior small,
+.maior
+  body
+  > div.marginBanidos
+  > div:nth-child(n)
+  > div.colunaMobile
+  > div.info
+  > p:nth-child(n) {
+  font-size: 20px;
+}
+
+body > div.bodyPart > div.StartImage,
+body > div.bodyPart > div.Imagens,
+body > div.bodyPart > div.QuadroDeVagas,
+body > div.bodyPart > div.TesteDePersonalidade,
+body > div.bodyPart > div.Depoimentos {
+  border-bottom: white 1px solid;
+}
+
+.preto #surface1 > path {
+  fill: #ffffff;
+}
+
+/* UNSET ACCESS - DESATIVANDO */
+
+body > div.bodyPart > div.TesteDePersonalidade > div.TextoTeste > div,
+body > div.bodyPart > div.StartImage > div.StartText > h1,
+body > div.bodyPart > div.StartImage > div.StartText > p,
+body > div.bodyPart > div.StartImage > h3,
+.preto h2,
+body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa,
+body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Candidato,
+body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa > div,
+body
+  > div.bodyPart
+  > div.StartImage
+  > div.EmpresaCandidato
+  > div.Candidato
+  > div,
+.preto h3,
+.preto h4,
+.preto h5,
+.preto p,
+.preto .BtnStartEmpresa,
+.preto .BtnStartCandidato {
+  background: transparent !important;
+}
+
+@media (max-width: 1340px) {
+  .maior p,
+  .maior a,
+  .maior span,
+  .maior div,
+  .maior bdi,
+  .maior strong,
+  .maior small,
+  .maior
+    body
+    > div.marginBanidos
+    > div:nth-child(n)
+    > div.colunaMobile
+    > div.info
+    > p:nth-child(n) {
+    font-size: 2vw;
+  }
+
+  .maior h1 {
+    font-size: 4vw;
+  }
+
+  .maior h2,
+  .maior h3,
+  .maior h4,
+  .maior h5,
+  .maior h6,
+  .maior pre,
+  .maior > div.central-textlogo > h1 > strong {
+    font-size: 2.5vw;
+  }
+}

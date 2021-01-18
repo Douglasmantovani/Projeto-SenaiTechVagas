@@ -1,0 +1,288 @@
+.ColumnImages > img {
+  width: 100px;
+  height: 100px;
+}
+
+.ColumnImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5vh;
+  flex-wrap: wrap;
+}
+
+.textBox {
+  margin-top: 10px;
+  width: 240px;
+  text-align: center;
+}
+
+.UnderlineText{
+  text-decoration: underline;
+}
+
+.Space > img {
+  width: 30px;
+  height: 30px;
+}
+
+.Vaga {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  width: 280px;
+  padding: 1vw;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.Tecnologias {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.BoxDeVagas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.QuadroDeVagas {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 3vh;
+}
+
+.TesteDePersonalidade {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2vw;
+  flex-wrap: wrap;
+}
+
+.imgTeste > img {
+  width: 250px;
+  height: 250px;
+}
+
+.BoxDepoimentos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Depoimentos {
+  text-align: center;
+  padding: 3vw;
+  background-color: #e5e5e5;
+}
+
+.QuadroDeVagas {
+  background-color: #e5e5e5;
+}
+
+.BoxTexto {
+  background-color: #4b4b4b;
+  min-width: 300px;
+  max-width: 400px;
+  height: auto;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  text-align: initial;
+  margin: 10px 0;
+  width: 20%;
+}
+
+hr {
+  background-color: black;
+  width: 100%;
+}
+
+.bt{
+width: auto;
+height: auto;
+padding: 12px 25px;
+background: #353535;
+border-radius: 4px;
+color: white;
+border: #353535 solid 1px !important;
+transition: .5s;
+font-weight: bold;
+}
+
+.heightomg {
+  height: 0;
+}
+
+.bt:hover{
+    background: white;
+    color: #353535;
+    border: white solid 1px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.Link {
+  font-size: 10px;
+  text-decoration: revert;
+}
+
+.LinkVaga {
+  font-size: 10px;
+  padding: 1vh 0;
+}
+
+.EmpresaCandidato {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.Empresa,
+.Candidato {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.StartImage {
+  text-align: center;
+  background-image: url("../../assets/esperoquesejaessetamanho.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5vh;
+}
+
+.BtnStartCandidato {
+  width: 152px;
+  height: 50px;
+  background: linear-gradient(262.72deg, #ff000f 7.13%, #873040 93.87%);
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 30px;
+  color: white;
+}
+
+.BtnStartEmpresa {
+  color: white;
+  width: 152px;
+  height: 50px;
+  background: linear-gradient(81.72deg, #005767 11.84%, #665f68 89.73%);
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+body
+  > div.bodyPart
+  > div.StartImage
+  > div.EmpresaCandidato
+  > div.Empresa
+  > div
+  > a
+  > button,
+body
+  > div.bodyPart
+  > div.StartImage
+  > div.EmpresaCandidato
+  > div.Candidato
+  > div
+  > a
+  > button ,
+  #root > div > div.bodyPart > div.QuadroDeVagas > div > div:nth-child(n) > div.LinkVaga > h4{
+  cursor: pointer;
+}
+
+/* Access */
+
+.preto body > div.bodyPart > div.TesteDePersonalidade,
+.preto body > div.bodyPart > div.Imagens{
+    background: black;
+}
+
+.preto .bt,
+.preto body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa > div > a > button > h2,
+.preto body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Candidato > div > a > button > h2,
+.preto #root > div > div.bodyPart > div.TesteDePersonalidade > div.TextoTeste > div > a > button > h4{
+    color: yellow !important;
+    text-decoration: underline !important;
+}
+
+.preto .bt:hover{
+    color: #373737 !important;
+}
+
+@media(max-width:888px){
+    .BoxDepoimentos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .BoxTexto{
+        margin-bottom: 50px;
+        padding: 6vw;
+    }
+
+    .BoxDeVagas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Vaga{
+        margin-bottom: 50px;
+    }
+    .TesteDePersonalidade{
+        text-align:center;
+    }
+    body > div.bodyPart > div.TesteDePersonalidade > div.TextoTeste{
+        padding: 5vw;
+    }
+    .maior body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Candidato > div > button > h2,
+    .maior body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa > div > button > h2{
+        font-size: 20px;
+    }
+}
+
+#root > div > div.bodyPart > div.Imagens > div:nth-child(n) > p{
+  text-align: center;
+}
+
+/* access */
+
+.preto .bt:hover {
+  color: #353535 !important;
+  background: #373737;
+  cursor: pointer;
+}
+
+.preto #botao, 
+.preto #botao > div,
+.preto #botaomaior, 
+.preto #botaomaior > div, 
+.preto #botaolibras, 
+.preto #botaolibras > div, 
+.preto #btn-gravar-audio,
+.preto #btn-gravar-audio > div,
+.preto #root > div > div.bodyPart > div.Depoimentos > div > div:nth-child(n) > div > p{
+  background-color: #373737 !important;
+}
+
+#root > div > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa > div > a > button,
+#root > div > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Candidato > div > a > button{
+  cursor: pointer;
+}

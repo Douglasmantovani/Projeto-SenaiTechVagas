@@ -1,0 +1,248 @@
+.meioPerfil {
+  display: flex;
+  height: 100%;
+}
+
+.RowPerfilAdm {
+  display: flex;
+  justify-content: space-between;
+  padding: 6vh;
+  flex-wrap: wrap;
+}
+
+.RowPerfilAdm > h3 {
+  text-decoration: underline;
+}
+
+#root > div > div.meioPerfil > div.DireitoPerfil > div > h3:nth-child(n) > a {
+  font-size: unset;
+}
+
+.Delete {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.EsquerdoPerfil {
+  width: 35%;
+  background-color: #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  padding: 10vh;
+  align-items: center;
+}
+
+.BotoesPerfil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#peliculaAlterarSenhaUsuario {
+  background-color: rgb(00, 00, 00, 0.63);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalAlterarSenhaUsuario {
+  width: 50%;
+  height: 40%;
+  overflow-y: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+}
+
+.BoxPerfil {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+  border-bottom: 1px solid grey;
+}
+
+.flexBoxPerfil {
+  display: flex;
+  justify-content: center;
+}
+
+.DireitoPerfil {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.ColumnNomeEmail,
+.ColumnPerfilBanir {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgperfil {
+  width: 140px;
+  height: 140px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.imgUsuario {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+
+.ColumnNomeEmail {
+  margin-top: 20px;
+}
+
+.ColumnNomeEmail > h2 {
+  padding: 1vh;
+}
+
+.ColumnPerfilBanir {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.btVerPerfil {
+  width: 100px;
+  height: 30px;
+  background-color: #ff000f;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.btPerfil {
+  background-color: #ff000f;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px 44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.selectPerfil {
+  background: rgba(0, 0, 0, 0.61);
+  border-radius: 4px;
+  color: white;
+  width: 173px;
+  margin-bottom: 5vw;
+  height: 32px;}
+
+.peliculaPerfilAdm {
+  background-color: rgb(00, 00, 00, 0.63);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modalPerfilAdm {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  display: none;
+}
+
+.preto .DireitoPerfil,
+.preto .EsquerdoPerfil,
+.preto .RowPerfilAdm,
+.preto .imgPefilTexto,
+.preto .BotoesPerfil {
+  background: transparent !important;
+}
+
+.preto .btPerfil {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.preto .EsquerdoPerfil {
+  border-right: solid 1px white;
+  background: #333330 !important;
+  justify-content: center;
+}
+
+.preto .modalAlterarSenhaUsuario,
+.preto #modalAlterarSenhaUsuario > h2 {
+  color: black !important;
+}
+
+.maior .btPerfil {
+  font-size: 16px;
+}
+
+.btVaga {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 1120px) {
+  .BotoesPerfil {
+    flex-wrap: wrap;
+    height: 40px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .DireitoPerfil {
+    width: 100%;
+  }
+
+  .ColumnNomeEmail > h2 {
+    font-size: 16px;
+  }
+
+  .ColumnNomeEmail > p {
+    font-size: 10px;
+  }
+
+  .btVerPerfil {
+    width: 75px;
+    height: 25px;
+  }
+}
+
+#root > div > div.meioPerfil > div.EsquerdoPerfil > div.imgPefilTexto > label > img:hover{
+  filter:opacity(0.5);
+  content: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-camera-512.png);
+}
+
+.Delete, .btVerPerfil, .ExcluirVagaText, .Edit{
+  cursor: pointer;
+}
+
+.preto #modalAlterarSenhaUsuario{
+  background-color: #373737 !important;
+  color:white;
+}
+
+.preto #modalAlterarSenhaUsuario > h2{
+  color: white !important;
+}

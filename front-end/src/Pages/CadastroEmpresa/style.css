@@ -1,0 +1,149 @@
+.registerCompany {
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  box-sizing: content-box;
+}
+
+.box-form {
+  display: grid;
+  grid-area: 1 / 1 / 6 / 4;
+  box-sizing: content-box;
+}
+
+.form-content {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5em;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-content h1 {
+  color: #005767;
+}
+
+
+body > div.registerCompany > div.box-form > div > div > button > label{
+  color: white;
+    font-weight: bold;
+  }
+
+.form-content p {
+  color: #707070;
+}
+
+.form-content label {
+  color: #9b9b9b;
+}
+
+.Input {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.Input label {
+  display: flex;
+  justify-content: content;
+}
+
+.cadastre {
+  height: 40px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #efefef;
+  border: none;
+  padding-left: 5px;
+}
+/* Esconde as setas dos inputs de tipo number */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body > div.registerCompany > div.box-img > img {
+  width: 40vw;
+  height: 500%;
+  object-fit: cover;
+}
+
+body
+  > div.registerCompany
+  > div.box-form
+  > div
+  > div
+  > div.form-button
+  > button {
+  cursor: pointer;
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+.password-matching-text {
+  display: flex;
+  text-align: left;
+  padding: 0 1vw;
+}
+
+.password-instructions-text{
+  text-align:justify;
+  padding: 0 1vw;
+}
+
+#cidade, #uf {
+  cursor: not-allowed;
+}
+
+#rua {
+  cursor: context-menu;
+}
+
+@media (max-width: 900px) {
+  body > div.registerCompany > div.box-img > img {
+    display: none;
+  }
+  body > div.registerCompany > div.box-form {
+    width: 94vw !important;
+    justify-content: center;
+  }
+  body > div.registerCompany > div.box-form > div {
+    width: 80vw !important;
+    padding: 5vw;
+  }
+}
+
+/* ACCESS MENU */
+
+.preto .box-form {
+  background: black !important;
+}
+
+.preto .form-content,
+.preto div.box-form > div > h1 ,
+.preto body > div.registerCompany > div.box-form > div > div{
+  background: #373737 !important;
+}
+
+.preto body > div.registerCompany > div.box-form > div > div > button > label{
+  color: yellow !important;
+  text-decoration: underline;
+}
+
+.preto body > div.registerCompany > div.box-form > div > form > div:nth-child(n) > label{
+  color: white !important;
+}

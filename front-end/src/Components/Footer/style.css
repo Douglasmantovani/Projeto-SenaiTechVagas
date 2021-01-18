@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+  
+.between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    padding: 1vw;
+    background: red;
+    font-size: 1vw;
+    font-weight: 500;
+    color: white;
+    padding-left: 12vw;
+}
+
+@media(max-width: 767px){
+  footer {
+    padding: 2vw;
+    background: red;
+    font-size: 2vw;
+    font-weight: 500;
+    color: white;
+    padding-left: 13vw;
+}
+}
+  

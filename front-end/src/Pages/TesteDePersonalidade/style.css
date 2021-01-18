@@ -1,0 +1,255 @@
+.Questionario {
+  padding: 2vh 10vw;
+}
+
+#root > div > div.heightomg > div {
+  height: -webkit-fill-available;
+}
+
+.InputRadius {
+  background: transparent !important;
+}
+
+.aligncenter {
+  text-align: center;
+  padding: 2vw;
+}
+
+#root > div > div.centro > button {
+  width: auto;
+  height: auto;
+  padding: 12px 45px;
+  background: #353535;
+  border-radius: 4px;
+  color: white;
+  border: #353535 solid 1px !important;
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+.centro {
+  text-align: center;
+  padding: 30px 0;
+}
+
+#root > div > div.centro > button:hover {
+  background: white;
+  border-radius: 4px;
+  color: #353535;
+  border: white solid 1px;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#root > div > h1 {
+  margin: 2vw 0vw 0vw 10vw;
+}
+.none {
+  display: none;
+}
+
+.modal {
+  background-color: rgb(00, 00, 00, 0.63);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.janela {
+  background-color: whitesmoke;
+  position: fixed;
+  top: 2%;
+  left: 10%;
+  width: 80%;
+  max-height: 90%;
+  min-height: 75%;
+  padding: 20px;
+}
+
+.conteudoModal {
+  display: flex;
+  flex-direction: row;
+}
+
+.conteudo {
+  padding: 5vw;
+}
+
+.headModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.animais {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.animal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  animation-delay: 20s;
+}
+
+.alinhar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 190px;
+}
+
+.palavraChave {
+  font-size: 20px;
+}
+
+.logoTipo {
+  width: 200px;
+}
+
+.aguia,
+#fechar {
+  width: 100px;
+  box-shadow: -3px -3px 5px #ffffff, 3px 3px 5px #a8a8a8;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 7px 10px 0;
+  padding: 5px;
+}
+
+.aguia:active,
+#fechar:active {
+  box-shadow: inset -3px -3px 5px #ffffff, inset 3px 3px 5px #a8a8a8;
+  text-align: -webkit-center;
+}
+
+.aguia:active > .aguia,
+#fechar:active > #fechar {
+  min-width: 95px;
+  height: 95px;
+  box-shadow: inset -3px -3px 5px #ffffff, inset 3px 3px 5px #a8a8a8;
+}
+
+#fechar {
+  position: absolute;
+  top: 0%;
+  right: 2%;
+  width: 40px;
+  height: 40px;
+  font-size: large;
+  font-weight: bolder;
+  border: unset;
+}
+
+.conteudo {
+  padding: unset;
+  padding-top: 5vw;
+}
+#modalTeste > div.janela > div.conteudoModal {
+  display: unset;
+}
+.alinhar,
+.animal {
+  display: unset;
+}
+
+.animais {
+  justify-content: space-between;
+  flex-direction: row;
+  width: -webkit-fill-available;
+}
+#modalTeste > div.janela > div.conteudoModal > div.conteudo {
+  width: -webkit-fill-available;
+}
+
+.animais {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  #modalTeste > div.janela {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .animais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .conteudo {
+    width: -webkit-fill-available;
+    padding: 2vw;
+  }
+  .palavraChave {
+    font-size: 16px;
+  }
+  #menu-hide > li > a {
+    font-size: 5vw;
+  }
+}
+
+.preto .InputRadius,
+.preto #root > div > h1,
+.preto #root > div {
+  background: transparent !important;
+}
+
+.maior #root > div > h1 {
+  font-size: 37px;
+}
+
+.maior #root > div > div.centro > button {
+  font-size: 20px;
+}
+
+.preto #pelicula {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+#pelicula{
+  background: #0000007d !important;
+  width: -webkit-fill-available;
+  height: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* access */
+
+.preto #modalTeste > div.janela,
+.preto #modalTeste > div.janela > div.headModal,
+.preto #modalTeste > div.janela > div.conteudoModal > div.animais,
+.preto #modalTeste > div.janela > div.conteudoModal > div.animais > div:nth-child(n),
+.preto #modalTeste > div.janela > div.conteudoModal > div.animais > div:nth-child(n) > div > div > p:nth-child(n),
+.preto #modalTeste > div.janela > div.conteudoModal > div.conteudo,
+.preto #nomeAnimal,
+.preto #conteudoModalG,
+.preto #conteudoModalL,
+.preto #conteudoModalT,
+.preto #conteudoModalA{
+  background: #373737 !important;
+}
+
+.preto #root > div > div.centro > button{
+  color: yellow;
+}
+
+.preto #root > div > div.centro > button:hover{
+  transition: unset;
+  background: #373737 !important;
+}
+
+#fechar{
+  cursor: pointer;
+}

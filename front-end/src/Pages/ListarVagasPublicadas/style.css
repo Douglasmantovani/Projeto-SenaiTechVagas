@@ -1,0 +1,264 @@
+.ImagemHeader{
+    background-image: url("../../assets/1500-0-.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5vh;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .Edit{
+       background-color: #C4C4C4;
+       width: 20px;
+       height: 20px;
+       margin-right: 10px;
+       padding: 2px;
+       border-radius: 4px;
+   }
+   
+   .Delete{
+   background-color: red;
+   width: 20px;
+   height: 20px;
+   padding: 2px;
+   border-radius: 4px;
+   }
+   
+   .Edit-Delete{
+       display: flex;
+       justify-content:flex-end;
+   }
+   
+   .MainVaga{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       width: 90%;
+   
+   }
+   
+   .ImagemEmpresa{height: 100px; border-radius: 100px; width: 100px;}
+   
+   body > div > div.ListaDeVagas > div > div.Edit-Delete > a{
+   font-size: 12px;
+   }
+   
+   .InfoVagas{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap;
+   }
+
+   .btSelecionar{
+    width: 260px;
+    height: 100px;
+    background-color: #f12525;
+    border: none;
+    border-radius: 6px;
+   }
+   
+.lbBt{
+    color: white;
+}
+
+body > div.registerApplicant > div.box-form > div > form > button > label{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+   .VagaCompleta{
+       display: flex;
+       border-radius: 4px;
+       padding: 3vh;
+   }
+   
+   .vaga{
+       background-color: #FAFAFA;
+       margin-bottom: 20px;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .AdicionarRemoverTecnologia{
+       display: flex;
+       justify-content: space-between;
+       align-items: end;
+   }
+   
+   .TecnologiasVaga{
+       display: flex;
+       justify-content: space-around;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
+   
+   .ListaDeVagas{
+       background-color: #E5E5E5;
+       padding: 3vw;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       justify-content: space-around;
+   }
+   
+.underlineText{
+    text-decoration: underline;
+}
+
+   .peliculaEditarVaga,.ModalEditarVaga,.peliculaAddTecnologia,.ModalAdicionarTecnologia,.peliculaRemoverTecnologia,.ModalRemoverTecnologia{
+       display: block;
+   }
+   
+#peliculaRemoverTecnologia{
+   background-color: rgb(00, 00, 00,0.63);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   justify-content: center;
+   align-items: center;
+}
+
+#ModalRemoverTecnologia{
+    width: 50%;
+   height: 30%;
+   overflow-y: auto;
+   background-color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 20px;
+   position: fixed;
+   top: 25%;
+   left: 25%;
+}
+
+#peliculaAddTecnologia{
+    background-color: rgb(00, 00, 00,0.63);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   justify-content: center;
+   align-items: center;
+}
+
+#ModalAdicionarTecnologia{
+    width: 50%;
+   height: 30%;
+   overflow-y: auto;
+   background-color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 20px;
+   position: fixed;
+   top: 25%;
+   left: 25%;
+}
+
+   #peliculaEditarVaga{
+   background-color: rgb(00, 00, 00,0.63);
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   justify-content: center;
+   align-items: center;
+   }
+   
+   #ModalEditarVaga{
+   width: 50%;
+   height: 60%;
+   overflow-y: auto;
+   background-color: white;
+   text-align: center;
+   border-radius: 5px;
+   padding: 20px;
+   position: fixed;
+   top: 25%;
+   left: 25%;
+   }
+   
+   .MainVaga>h3{
+       margin-bottom: 1em;
+   }
+   
+   @media(max-width:767px){
+       .VagaCompleta{
+           display: block;
+       }
+
+       .Edit-Delete>a{
+           font-size: 15px;
+       }
+   }
+   
+   .none{
+       display: none;
+   }
+   
+   /* ADAPTANDO MENU DE ACESSIBILIDADE */
+   
+   .preto body > div.bodyPart > div.ImagemHeader{
+       background-image: unset;
+       border-bottom: white solid 1px;
+   }
+   
+   .preto .ListaDeVagas, .preto body > div.bodyPart > div.ImagemHeader{
+       background: black !important;
+   }
+   
+   .preto body > div.bodyPart > div.ImagemHeader > h1{
+       background: transparent !important;
+   }
+
+   .preto #root > div > div.ImagemHeader{
+    background: unset !important;
+   }
+
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n),
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.Edit-Delete,
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.VagaCompleta,
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.AdicionarRemoverTecnologia,
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.AdicionarRemoverTecnologia > h6:nth-child(n),
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.VagaCompleta > div > h3,
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.VagaCompleta > div > div.TecnologiasVaga,
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.VagaCompleta > div > div.InfoVagas,
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.VagaCompleta > div > div.InfoVagas > div:nth-child(n),
+   .preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.VagaCompleta > div{
+       background: #373737 !important;
+   }
+   
+
+#root > div > div.ListaDeVagas > div > div.AdicionarRemoverTecnologia > h6:nth-child(1),
+#root > div > div.ListaDeVagas > div > div.AdicionarRemoverTecnologia > h6:nth-child(2),
+#btn-EditarVaga, #root > div > div.ListaDeVagas > div > div.Edit-Delete > img.Delete,
+#root > div > div.meioPerfil > div.EsquerdoPerfil > div.imgPefilTexto > label > img{
+    cursor: pointer;
+}
+
+.preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.AdicionarRemoverTecnologia > h6:nth-child(n),
+.preto #root > div > div.ListaDeVagas > div:nth-child(n) > div.VagaCompleta > div > h3{
+    color: yellow !important;
+}
+
+.preto #ModalEditarVaga{
+    background-color: #373737 !important;
+}
+
+.preto #ModalEditarVaga > div{
+    background-color: #373737 !important;
+}
+
+.preto #ModalAdicionarTecnologia{
+    background-color: #373737 !important;
+}
+
+.preto #ModalRemoverTecnologia{
+    background-color: #373737 !important;
+}

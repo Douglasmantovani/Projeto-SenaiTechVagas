@@ -1,0 +1,26 @@
+@media(max-width:770px){
+    .MeioVizualizarAdm{
+        display: unset;
+    }
+
+    .EsquerdoAdm{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .hrAdm{
+        display: none;
+    }
+
+    #root > div > div.MeioVizualizarAdm > div.EsquerdoAdm > div > div:nth-child(n) > div.flexBoxPerfil > div > h2{
+        font-size: 15px;
+    }
+
+    .DireitoAdm {
+        display: flex;
+        flex-direction: column;
+        width: unset;
+        align-items: center;
+        padding: 2vh;
+    }
+}

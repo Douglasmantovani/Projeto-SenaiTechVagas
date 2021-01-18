@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37935865-01f3-402b-bddd-5611ca4575ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../front-end/src/Pages/CadastroCandidato/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/src/Pages/CadastroCandidato/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/packager-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.expo/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.expo/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Splash/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Splash/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Splash/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Splash/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon.webp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1l3Sk1BZn0OQFrXBF1CixIdadSc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37935865-01f3-402b-bddd-5611ca4575ef" name="Default Changelist" comment="" />
+      <created>1606824428910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606824428910</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="120" y="120" width="1200" height="620" key="AVDManager" timestamp="1606831060802">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="120" y="120" width="1200" height="620" key="AVDManager/0.0.1440.860@0.0.1440.860" timestamp="1606831060802" />
+    <state x="221" y="74" key="SettingsEditor" timestamp="1606826375523">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1606826375523" />
+  </component>
+</project>

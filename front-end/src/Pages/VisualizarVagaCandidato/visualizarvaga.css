@@ -1,0 +1,162 @@
+.sessaoVisualizarVaga {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #E9E9E9;}
+
+.imgBannerDescriVaga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-image: url('../../assets/bannerVisualizarVaga.webp');
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.v-titleVaga {font-weight: 300;color: #FFFFFF;font-size: 36px;}
+
+.divisionTagsLinguagem {display: flex; justify-content: space-between; align-items: center;}
+
+.divisionIntroVaga {
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;}
+
+.infoVagaVisualizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 1194px;
+    margin: 4em 0px;
+    background: #ffffff;
+    border-radius: 4px;}
+
+.icard-division {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.divisionTagsVagas {
+    margin: 0px 4em;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;}
+
+.card-vaga-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.sessao-svempresa {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;}
+
+.descri-empresa, .descri-vaga {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4em;}
+
+.descri-empresa > h2 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #8B8B8B;
+    margin-bottom: 20px;}
+
+.descri-vaga > h2 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #8B8B8B;
+    margin-bottom: 20px;}
+
+.descri-empresa, .descri-vaga > p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #484848;}
+
+.divisionBeneVaga {
+    background: #DFDFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2em 0px;}
+    
+.centerBene {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;}
+
+.centerBene > h2 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #8B8B8B;}
+
+.divisionPlan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+
+.btnCandidatase{
+    width: 277px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    background: #FF000F;
+    font-size: 25px;}
+
+
+.divisionPlan > div > p {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 27px 0px;}
+
+.preto .infoVagaVisualizar{background: #373737 !important;}
+
+.preto .sessaoVisualizarVaga{background: transparent !important;}
+
+.preto .imgBannerDescriVaga{border-bottom: solid 1px white;}
+
+.preto .divisionBeneVaga{border-top: 1px white solid;}
+
+@media only screen and (max-width: 450px) {
+.ImagemEmpresa {margin-top: 1em !important;}
+.icard-division {flex-direction: column;}
+.divisionTagsVagas {flex-direction: row;justify-content: center;}
+.card-vaga-info {align-items: flex-start;flex-direction: column;}
+  }
+@media only screen and (max-width: 720px) {
+.ImagemEmpresa {margin-top: 1em !important;}
+.icard-division {flex-direction: column;}
+  }
+
+@media only screen and (max-width: 320px) {.divisionTagsVagas {height: 25vh;}}
+@media only screen and (max-width: 1321px) {.sessao-svempresa {width: 96% !important;}}
+@media only screen and (max-width: 3000px) {.sessao-svempresa {width: 1194px;}}
+@media only screen and (max-width: 1194px) {.infoVagaVisualizar{width: 96vw;}}
+
+.preto #root > div > main > section.imgBannerDescriVaga > div > div > div:nth-child(n){
+    background-color:black !important;
+}
+
+.preto #root > div > main > section.divisionBeneVaga > div > button{
+    color: yellow;
+}

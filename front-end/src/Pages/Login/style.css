@@ -1,0 +1,215 @@
+.division-logar-title > p {height: initial; color: #5f5f5f;}
+
+.LabelErro{
+    color: unset;
+    font-weight: unset;
+    color: red;
+    font-size: small;
+    text-align: center;
+}
+
+.principalLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+
+.sessaoLogar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55vw;}
+
+.form-logar {
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;}
+    
+.division-logar {
+    border: none;
+    border-radius: 20px;
+    background: #FFFFFF;
+    width: 611px;
+    height: 596px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;}
+
+.division-logar-title {
+    display: flex;
+    flex-direction: column;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;}
+
+.division-logar-title > h2 {
+    font-size: 36px;
+    color: #005767;
+    text-transform: capitalize;
+    font-weight: 400;}
+ 
+.divisionCampo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8vh !important;
+    align-items: flex-start;}
+
+.divisionCampo > label{color: #5f5f5f; font-weight: 600;}
+
+.inputUser{background-image: url('../../assets//user\ 1.webp');}
+
+.inputUser, .inputPassword{ 
+    padding-left: 1em;   
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    width: 295px;
+    height: 44.51px;
+    background: #f3f3f3;
+    outline: none;
+    border: none;    
+    display: flex;}
+
+.recuperarPassword{
+    text-decoration: underline;
+    font-size: 12px;
+    color: #707070;
+    font-weight: 400;
+    width: 295px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 33%;
+}
+    
+.divisionBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;}
+
+.btnLogar, .btnNew {
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold; 
+    outline: none;
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;} 
+
+.btnNew {
+    border: none;
+    background: none;}
+
+.link-cad-conta{color: #707070;font-size: 16px;}
+
+.btnLogar {
+    width: 104px;
+    height: 38px;
+    background: #005767;
+    border-radius: 4px;
+    color: #fff;}
+
+
+.Login > img{height: 100vh;}
+
+#peliculaRecuperarSenhaCandidato{
+    background-color: rgb(00, 00, 00,0.63);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;}
+
+#modalRecuperarSenhaCandidato{
+    width: 50%;
+    overflow-y: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    position: fixed;
+    top: 5%;
+    left: 25%;}
+
+@media only screen and (max-width: 400px) {
+.principalLogin {padding: 100px 0px;}
+.divisionBtn { width: 264px; }
+.form-logar {height: 33vh;}
+.division-logar-title{height: 10vh;}
+.divisionCampo {height: 12vh;}
+}
+
+
+@media only screen and (max-width: 700px) {
+
+.imgBannerLogin {display: none;}
+
+.principalLogin {
+    padding: 72px 0em;
+    flex-direction: column;}
+    
+.divisionBtn {width: 243px;}
+.division-logar {width: 360px;}
+.form-logar {height: 23vh;}
+
+.divisionCampo {height: 9vh;}
+    }
+
+@media only screen and (max-width: 1292px) {
+
+.principalLogin {
+    padding: 0px 0px !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 787px;}
+
+.divisionCampo {height: 10vh;}
+
+.imgBannerLogin {display: none;}
+.divisionBtn {width: 300px;}
+.divisionPassword {height: 11vh;}
+.form-logar {height: 25vh;}
+}
+
+@media only screen and (min-width: 1293px) {
+.principalLogin {padding: 0px 0px !important;}
+.divisionBtn{width: 300.8px !important;}
+.imgBannerLogin {width: 50%;}
+}
+
+/* access */
+
+.preto #root > div > main{
+    background: black !important;
+}
+
+.preto #root > div > main > section > div{
+    background: #373737;
+}
+
+.preto #root > div > main > section > div > div.division-logar-title > h2{
+    color: #005767 !important;
+}
+
+.preto #root > div > main > section > div > form > div:nth-child(n) > label,
+.preto #root > div > main > section > div > div.division-logar-title > p{
+    color: white !important;
+}
+
+.preto #root > div > main > section > div > div.divisionBtn > button.btnLogar{
+    color: yellow !important;
+    text-decoration: underline !important;
+}
+
+.preto #modalRecuperarSenhaCandidato{
+    background-color: #373737 !important;
+}

@@ -1,0 +1,1395 @@
+{
+	"info": {
+		"_postman_id": "405da319-3343-43fd-9388-2635329ffe0d",
+		"name": "SenaiWebApi-VersãoCompacta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LoginController",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"David@gmail.com\",\r\n    \"senha\": \"123123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Login"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "AdministradorController",
+			"item": [
+				{
+					"name": "ListarEmpresas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRvdWdsYXNAZ21haWwuY29tIiwianRpIjoiNyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjIiLCJleHAiOjE2MDA0NTU3NDMsImlzcyI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSIsImF1ZCI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSJ9.YhnVP1K30A1tywtqVHiaDGD2-tF4aDI4T_n8YyKoKlw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarEmpresas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarEmpresas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarBanidos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarBanidos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarBanidos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarCandidatos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarCandidatos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarCandidatos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarEstagios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarEstagios",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarEstagios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarTipoUsuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarTipoUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarTipoUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarStatusInscricao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarStatusInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarStatusInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarTecnologias",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarTecnologias",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarTecnologias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarEstagiosPorPeriodoDeDuracao",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarEstagiosPorPeriodoDeDuracao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarEstagiosPorPeriodoDeDuracao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarAdministradores",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/ListarAdministradores",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"ListarAdministradores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdicionarTecnologia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeTenologia\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AdicionarTecnologia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AdicionarTecnologia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdicionarStatusInscricao",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeStatusInscricao\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AdicionarStatusInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AdicionarStatusInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdicionarTipoUsuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeTipoUsuario\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AdicionarTipoUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AdicionarTipoUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdiconarEstagio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCandidato\":\"\",\r\n    \"idEmpresa\":\"\",\r\n    \"PeriodoEstagio\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AdicionarEstagio",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AdicionarEstagio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdicionarCurso",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBvc3NhcmxlQGVtYWlsLmNvbSIsImp0aSI6IjEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNjAwNDc3Njk4LCJpc3MiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkiLCJhdWQiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkifQ.3r1Oyh_b3oxj5WYNUEc8V5pvy_VMogJj14b6JK1EH_A",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeCurso\":\"Code\",\r\n    \"TipoCurso\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AdicionarCurso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AdicionarCurso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarVaga",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/DeletarVaga/idVaga",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"DeletarVaga",
+								"idVaga"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarEstagio",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/DeletarEstagio/idEstagio",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"DeletarEstagio",
+								"idEstagio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarEmpresa",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBvc3NhcmxlQGdtYWlsLmNvbSIsImp0aSI6IjIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIxIiwiZXhwIjoxNjAwNTY3NTA0LCJpc3MiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkiLCJhdWQiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkifQ.CpK4qHA2fak10uLJNVX1PuKlREzKLurOMnrfiCgju78",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/DeletarEmpresa/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"DeletarEmpresa",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarCandidato",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/DeletarCandidato/idCandidato",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"DeletarCandidato",
+								"idCandidato"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarAdministrador",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/DeletarAdministrador",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"DeletarAdministrador"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarInscricao",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/DeletarInscricao/idInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"DeletarInscricao",
+								"idInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Banir",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/Banir/idUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"Banir",
+								"idUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Desbanir",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/Desbanir/idUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"Desbanir",
+								"idUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarStatusInscricao",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeStatusInscricao\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AtualizarStatusInscricao/idStatusInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AtualizarStatusInscricao",
+								"idStatusInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarTipoUsuario",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeTipoUsuario\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AtualizarTipoUsuario/idTipoUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AtualizarTipoUsuario",
+								"idTipoUsuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarEstagio",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"PeriodoEstagio\":12\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AtualizarEstagio/idEstagio",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AtualizarEstagio",
+								"idEstagio"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarCurso",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeCurso\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AtualizarCurso/idCurso",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AtualizarCurso",
+								"idCurso"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarTecnologia",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeTecnologia\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Administrador/AtualizarTecnologia/idTecnologia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Administrador",
+								"AtualizarTecnologia",
+								"idTecnologia"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "CandidatoController",
+			"item": [
+				{
+					"name": "ListarVagasInscritas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Candidato/ListarVagasInscritas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Candidato",
+								"ListarVagasInscritas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SeInscrever",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRvdWdsYXNAZ21haWwuY29tIiwianRpIjoiNSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjIiLCJleHAiOjE2MDA1Njk2OTEsImlzcyI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSIsImF1ZCI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSJ9.zE5K-Y4JspBlge90mfiLi7lA-CRIxMU1EZhZkiJCAB0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idVaga\":\"20\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Candidato/AdicionarInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Candidato",
+								"AdicionarInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RevogarInscricao",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Candidato/RevogarInscricao/idInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Candidato",
+								"RevogarInscricao",
+								"idInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarCandidato",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRvdWdsYXNAZ21haWwuY29tIiwianRpIjoiMTEiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIyIiwiZXhwIjoxNjAwNDc1Nzc4LCJpc3MiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkiLCJhdWQiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkifQ.-z_McXhqtqo2hWLvAfMg9TqjWP-QAwv_vZnpRFHjQwU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"NomeCompleto\":\"\",\r\n        \"Rg\":\"\",\r\n        \"Cpf\":\"\",\r\n        \"Telefone\":\"\",\r\n        \"LinkLinkedinCandidato\":\"\",\r\n        \"Area \":\"\",\r\n        \"idCurso \":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Candidato/AtualizarCandidato",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Candidato",
+								"AtualizarCandidato"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "EmpresaController",
+			"item": [
+				{
+					"name": "ListarVagasPublicadas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/ListarVagasPublicadas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"ListarVagasPublicadas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarCandidatosInscritosNaVaga",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/ListarCandidatosInscritos/idVaga",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"ListarCandidatosInscritos",
+								"idVaga"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarVaga",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/DeletarVagaEmpresa/idVaga",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"DeletarVagaEmpresa",
+								"idVaga"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletarTecnologiaDaVaga",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idVaga\":\"\",\r\n    \"idTecnologia\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/DeletarTecnologiaDaVaga",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"DeletarTecnologiaDaVaga"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reprovar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/Repprovar/idInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"Repprovar",
+								"idInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarVaga",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRhdmlkQGdtYWlsLmNvbSIsImp0aSI6IjQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIzIiwiZXhwIjoxNjAwNjE0MTY4LCJpc3MiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkiLCJhdWQiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkifQ.sY6EEWKAUtZgP4W84usckktP1DjrJBS52kphEpYML1I",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"DescricaoVaga\":\"Maneirona\",\r\n    \"DescricaoEmpresa\":\"somos incriveis\",\r\n    \"DescricaoBeneficio\":\"Voce sera feliz\",\r\n    \"Experiencia\":\"Estagiario\",\r\n    \"TipoContrato\":\"Estagio\",\r\n    \"Salario\":\"3000\",\r\n    \"Localidade\":\"Barueri\",\r\n    \"CEP\":\"3423423\",\r\n    \"Estado\":\"São Paulo\",\r\n    \"Logradouro\":\"12321\",\r\n    \"Complemento\":\"Ali na esquina\",\r\n    \"DataExpiracao\":\"2020/09/21\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/AtualizarVagaEmpresa/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"AtualizarVagaEmpresa",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarDadosEmpresa",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"NomeReponsavel\" :\"\",\r\n\"Cnpj\" :\"\",\r\n\"EmailContato\":\"\",\r\n\"NomeFantasia\":\"\",\r\n\"RazaoSocial\" :\"\",\r\n\"Telefone\" :\"\",\r\n\"NumFuncionario\" :\"\",\r\n\"NumCnae\" :\"\",\r\n\"Cep\" :\"\",\r\n\"Logradouro\" :\"\",\r\n\"Complemento\" :\"\",\r\n\"Localidade\" :\"\",\r\n\"Uf\" :\"\" ,\r\n}  "
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/AtualizarEmpresa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"AtualizarEmpresa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Aprovar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/Aprovar/idInscricao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"Aprovar",
+								"idInscricao"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdicionarTecnologiaNaVaga",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRhdmlkQGdtYWlsLmNvbSIsImp0aSI6IjQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIzIiwiZXhwIjoxNjAwNzM2NTA2LCJpc3MiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkiLCJhdWQiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkifQ.5FPmRoNrcRms4-iRVz5K-_ifvucg_2ysN-YhLoqGdvk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idVaga\":\"20\",\r\n    \"idTecnologia\":\"6\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/AdicionarTecnologiaNaVAaga",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"AdicionarTecnologiaNaVAaga"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AdiconarVaga",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRhdmlkQGdtYWlsLmNvbSIsImp0aSI6IjMiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiIzIiwiZXhwIjoxNjAwNTY5MTU3LCJpc3MiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkiLCJhdWQiOiJTZW5haVRlY2hWYWdhcy5XZWJBcGkifQ.0y599fsTL9O_GDCibfCkHnDBMkao76AlARzfq3yW6Po",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"DescricaoVaga\":\"Desenvolvimento\",\r\n    \"DescricaoEmpresa\":\"Somos incriveis e procuramos jovens\",\r\n    \"DescricaoBeneficio\":\"Voce tera a honrra de trabalhar conosco\",\r\n    \"Experiencia\":\"Junior\",\r\n    \"TipoContrato\":\"Estagiario\",\r\n    \"Salario\":\"2500\",\r\n    \"Localidade\":\"São paulo\",\r\n    \"CEP\":\"2312\",\r\n    \"Estado\":\"sdfsdf\",\r\n    \"Logradouro\":\"asfsadf\",\r\n    \"Complemento\":\"sdfsdfsd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/AdicionarVaga",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"AdicionarVaga"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarCandidatosAprovados",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Empresa/ListarCandidatosAprovados/idVaga",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Empresa",
+								"ListarCandidatosAprovados",
+								"idVaga"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "UsuarioController",
+			"item": [
+				{
+					"name": "CadastrarEmpresa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"NomeReponsavel\" :\"Gabriel\",\r\n\"Cnpj\" :\"1231221\",\r\n\"EmailContato\":\"rtyhtdfh\",\r\n\"NomeFantasia\":\"dfhgdfhdfhd\",\r\n\"RazaoSocial\" :\"fdhgdfhfdhf\",\r\n\"Telefone\" :\"3423423\",\r\n\"NumFuncionario\" :\"323\",\r\n \"NumCnae\" :\"2323\",\r\n \"Cep\" :\"32234\",\r\n \"Logradouro\" :\"3243422\",\r\n \"Complemento\" :\"23423423\",\r\n \"Localidade\" :\"23234234\",\r\n \"Uf\" :\"234234\" ,\r\n \"Email\":\"Gabriel@gmail.com\",\r\n \"Senha\":\"123123\"\r\n}         ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/CadastrarEmpresa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"CadastrarEmpresa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CadastrarCandidato",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"NomeCompleto\":\"Douglas Silva Mantovani\",\r\n        \"Rg\":\"123123134\",\r\n        \"Cpf\":\"23123123\",\r\n        \"Telefone\":\"40028922\",\r\n        \"LinkLinkedinCandidato\":\"amazon/123oifh82983\",\r\n        \"Area\":\"Desenvolcimento\",\r\n        \"idCurso\":1,\r\n        \"Email\":\"Doufrola@gmail.com\",\r\n        \"Senha\":\"123123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/CadastrarCandidato",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"CadastrarCandidato"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PesquisarVagaPelaTecnologia",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRvdWdsYXNAZ21haWwuY29tIiwianRpIjoiNyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjIiLCJleHAiOjE2MDA0NTU3NDMsImlzcyI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSIsImF1ZCI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSJ9.YhnVP1K30A1tywtqVHiaDGD2-tF4aDI4T_n8YyKoKlw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/Tecnologia/CSharp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"Tecnologia",
+								"CSharp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarPorFiltroTipoContrato",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/TipoContrato/CLT",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"TipoContrato",
+								"CLT"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarPorFiltroNivelExperiencia",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/NivelExperiencia/PJ",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"NivelExperiencia",
+								"PJ"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListarTodasAsVagas",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkRvdWdsYXNAZ21haWwuY29tIiwianRpIjoiNyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjIiLCJleHAiOjE2MDA0NTU3NDMsImlzcyI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSIsImF1ZCI6IlNlbmFpVGVjaFZhZ2FzLldlYkFwaSJ9.YhnVP1K30A1tywtqVHiaDGD2-tF4aDI4T_n8YyKoKlw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/ListarTodasAsVagas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"ListarTodasAsVagas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarUsuario",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Email\":\"\",\r\n    \"Senha\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/Usuario/AtualizarUsuario",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"Usuario",
+								"AtualizarUsuario"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,188 @@
+.marginBanidos {
+    margin: 5vw 25vw 5vw 25vw;
+}
+
+.tituloBanidos {
+    font-size: 2.5vw;
+}
+
+.filtroBanidos {
+    display: flex;
+    align-items: center;
+}
+
+.selectBanidos {
+    margin: 2vw 0vw 2vw 1vw;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: #ffff;
+    border-radius: 0.5vh;
+}
+
+.DeletarPermanente{
+display: flex;
+justify-content: flex-end;
+}
+
+.DeletarPermanente>p{
+    margin-right: 5px;
+    }
+
+.banidoBox {
+    background: #ffff;
+    padding: 3vh;
+    display: flex;
+    margin-bottom: 5vh;
+    justify-content: space-between;
+}
+
+.banidoBox p {
+    font-size: 1.1vw;
+}
+
+.colunaMobile {
+    display: flex;
+}
+
+.banido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banido img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.banido h4 {
+    margin-top: 1vh;
+    font-size: 1.5vw;
+}
+
+.banido p {
+    font-size: 1vw;
+}
+
+.user {
+    margin-bottom: 1vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 3vh;
+}
+
+.info p {
+    height: 3vw;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desbanir {
+    display: flex;
+    margin-left: 3vh;
+    justify-content: flex-end;
+}
+
+.desbanir img {
+    margin-left: 1vh;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+
+.preto body > div.marginBanidos > div > h5{
+    color: black !important;
+}
+
+.preto body > div.marginBanidos > div > h5{
+    color: white !important;
+}
+
+.preto .corpo{
+    background: black !important;
+}
+
+
+@media (max-width: 1100px) {
+    .marginBanidos {
+        margin: 2.5vw 15vw 2.5vw 15vw;
+    }
+    
+    .banidoBox p {
+        font-size: 1.5vw;
+    }
+
+    .tituloBanidos {
+        font-size: 2.7vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .marginBanidos {
+        margin: 1vw 2.5vw 1vw 2.5vw;
+    }
+
+    .tituloBanidos {
+        font-size: 4vw;
+    }
+    
+    .banidoBox p {
+        font-size: 2.3vw;
+    }
+
+    .colunaMobile {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .info {
+        margin-left: 0vh;
+        margin-top: 2vw;
+    }
+}
+
+.preto body > div.marginBanidos > div:nth-child(n){
+    background-color: #373737 !important;
+}
+
+.preto body > div.marginBanidos > div:nth-child(n) > div.colunaMobile > div.info{
+    background-color: #373737 !important;
+}
+
+.preto body > div.marginBanidos > div:nth-child(n) > div.data > div.desbanir{
+    background-color: #373737 !important;
+}
+
+.preto body > div.marginBanidos > div:nth-child(n) > div.data > div.DeletarPermanente{
+    background-color: #373737 !important;
+}
+
+.preto body > div.marginBanidos > div:nth-child(n) > div.data > div.desbanir > p{
+    color: yellow !important;
+    cursor: pointer;
+}
+
+.preto body > div.marginBanidos > div:nth-child(n) > div.data > div.DeletarPermanente > p{
+    color: yellow !important;
+    cursor: pointer;
+}
+
+
+.maior body > div.marginBanidos > div:nth-child(n) > div.colunaMobile > div.info > p:nth-child(n){
+font-size: 14px !important;
+font-weight: bold;
+}
+
+.preto body > div.marginBanidos > div:nth-child(n) > div.colunaMobile > div.banido{
+    background-color: #373737 !important;
+}

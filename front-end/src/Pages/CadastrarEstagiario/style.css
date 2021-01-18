@@ -1,0 +1,43 @@
+.margin {
+    display: flex;
+    justify-content: center;
+}
+.estagiarioBox {
+    display: flex;
+    align-items: center;
+}
+
+.tituloEstagiario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25vw;
+}
+
+.alinharEstagiario {
+    margin-left: 10vw;
+    width: 40vw;
+    border-left: black solid 1px;
+}
+
+.camposEstagiario {
+    margin-bottom: 2vw;
+}
+
+.selectEstagiario {
+    margin: 1vw 0vw 1vw 1vw;
+}
+
+.div-select {
+    margin-top: 1vw;
+    height: 36px;
+    width: 100%;
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.botaoCadastrarEs {
+    margin-left: 1vw;
+}

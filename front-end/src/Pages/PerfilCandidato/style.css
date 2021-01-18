@@ -1,0 +1,111 @@
+.flexBoxPerfilCandidato{
+    display: flex;
+    align-items: center;
+}
+
+.flexBoxPerfilCandidato>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+
+.BoxPerfilCandidato{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.BotoesPerfilCandidato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#peliculaPerfilCandidato{
+    background-color: rgb(00, 00, 00,0.63);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalPerfilCandidato{
+    width: 50%;
+    height: 70%;
+    overflow-y: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+}
+
+#peliculaAlterarSenhaCandidato{
+    background-color: rgb(00, 00, 00,0.63);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#modalAlterarSenhaCandidato{
+    width: 50%;
+    overflow-y: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+}
+
+.btPerfil{
+    margin: 10px;
+}
+
+@media(max-width:700px){
+    .flexBoxPerfilCandidato>h3{
+        font-size: 12px;
+        }
+
+        .BoxPerfilCandidato>h3{
+            font-size: 12px;
+        }
+    
+    .meioPerfil{
+        flex-wrap: wrap;
+    }
+
+    .EsquerdoPerfil{
+        width: 100%;
+    }
+
+    .imgPefilTexto{
+        
+    }
+}
+
+.preto #root > div > div.meioPerfil > div.EsquerdoPerfil > div.BotoesPerfilEmpresa,
+.preto #root > div > div.content-searchJobs > div > div.vagas > div:nth-child(n) > div,
+.preto #root > div > div.content-searchJobs > div > div.vagas > div:nth-child(n) > div > div,
+.preto #root > div > div.content-searchJobs > div > div.vagas > div:nth-child(n) > div > div > div.TecnologiasVaga,
+.preto #root > div > div.content-searchJobs > div > div.vagas > div:nth-child(n) > div > div > div.InfoVagas,
+.preto #root > div > div.content-searchJobs > div > div.vagas > div:nth-child(n) > div > div > div.InfoVagas > div:nth-child(n){
+    background: #333330 !important;
+}
+
+.preto #modalPerfilCandidato,.preto #modalAlterarSenhaCandidato{
+    background-color: #373737 !important;
+}
+

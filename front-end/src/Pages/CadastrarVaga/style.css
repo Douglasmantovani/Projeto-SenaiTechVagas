@@ -1,0 +1,137 @@
+.meio{
+    display: flex;
+    width: 100%;
+}
+
+.Esquerdo{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 3vw;
+}
+
+
+.Direito{
+    text-align: center;
+    background-image: url("../../assets/esperoquesejaessetamanho.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.bodyPartCadastrarVaga{
+    background-color: #E5E5E5;
+}
+
+.select-final{
+    display: flex;
+    padding: 12px;
+    border: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.select-final>label{
+text-align: start;
+margin-bottom: 18px;
+}
+
+.select-final>Select{
+    height: 36px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background-color: #E0E0E0;
+}
+
+
+.ModalCadastro{
+    background-color: white;
+    padding: 2vw;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1vh;
+}
+
+textarea{
+    background-color: #E0E0E0;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    height: 100px;
+}
+
+body > div > div > div.Esquerdo > div >  h2{
+    color: #005767;
+    padding: 1vw;
+}
+
+body > div > div > div.Esquerdo > div > form{
+    width: 80%;
+}
+
+.btVaga{
+    background-color: #FF000F;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    justify-content: center;
+    padding: 12px 44px;
+}
+
+.btVagaDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:780px){
+    .Direito{
+        display: none;
+        width: 0%;
+    }
+
+    .Esquerdo{
+        width: 100%;
+    }
+
+    body > div.bodyPartCadastrarVaga > div > div.Esquerdo > div > h2{
+        text-align: center;
+    }
+}
+
+/* ADAPTANDO MENU DE ACESSIBILIDADE */
+
+.preto .Esquerdo{
+    background: black !important;
+}
+
+.preto .btVaga{
+    color: yellow !important;
+    text-decoration: underline;
+}
+
+.maior .btVaga{
+    font-size: 16px;
+}
+
+.preto body > div.bodyPartCadastrarVaga > div > div.Esquerdo > div{
+    background: #373737 !important;
+}
+
+.preto #root > div > div.meioPerfil > div.EsquerdoPerfil > div.BotoesPerfilEmpresa > button:nth-child(n) > h3{
+    color: yellow !important;
+}

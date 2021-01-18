@@ -1,0 +1,266 @@
+.header {
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vw;
+  align-items: center;
+}
+
+.none, .access-button, .pop-up {
+    transition: all .3s ease 0s;
+    display: none;
+}
+
+a {
+    text-decoration: unset;
+    color: #2A2E32;
+    font-weight: 800;
+    font-size: 1.2vw;
+}
+
+.modalPrincipal {
+    z-index: 1;
+    background: #00000fa1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    animation: enter 1s;
+    animation-direction: alternate;
+}
+
+.dex {
+    position: absolute;
+    right: 0vw;
+    top: -1vw;
+    padding: 3vw;
+    z-index: 111;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#menu > li:nth-child(1), #menu > li:nth-child(2) {
+    margin-right: 2vw;
+}
+
+li > a {
+    text-decoration: unset;
+    margin-right: 3vw;
+}
+
+.logo {
+    width: 20vw;
+}
+
+.none, .access-button, .pop-up {
+    transition: all .3s ease 0s;
+    display: none;
+}
+
+
+.botao, .botao1 {
+    padding: 1vw;
+    background: #2A2E32;
+    color: white;
+    margin-left: .2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.botao1 {
+    margin-left: unset;
+    background: red;
+}
+
+.burguer {
+    width: 10vw;
+}
+
+#menu-hide > li:nth-child(5) > a{
+  color: white;
+}
+
+#menu-hide > li > a{
+  color: unset;
+}
+
+#menu-hide > li:nth-child(4) > a{
+  color: unset;
+}
+
+@media (min-width: 851px){
+#modal{
+  display: none;
+}
+  .menumodal{
+  display: none;
+}
+.navmobile.none{
+  display: none;
+}
+}
+
+@media (max-width: 850px){
+  .navmobile.none{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2vw 3vw 0vw 2vw;
+  }
+  nav.navbar, .barra, .code1, .code2{
+    display: none;
+  }
+  li > a{
+    margin: unset;
+  }
+  .menumodal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    background: white;
+    -webkit-background-size: 100% 3vw;
+    -moz-background-size: 100% 3vw;
+    -ms-background-size: 100% 3vw;
+    background-size: 100% 3vw;      
+    flex-direction: row-reverse;
+    padding: 3vw;
+    animation: show 1s;
+  }
+  #menu-hide{
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+    align-items: center;
+    height: -webkit-fill-available;
+    justify-content: space-evenly;
+  }
+  
+  #menu-hide > li > a{
+    color: #2A2E32;
+    font-size: 3vw;
+    border-radius: .8vw;
+  }
+  .botao{
+    color: white !important;
+  }
+  #menu-hide > li:nth-child(4) > a > div{
+    font-size: 4vw !important;
+    margin-right: 1vw;
+  }
+  .botao{
+    background: #2A2E32;
+    margin: unset;
+  }
+  .botao, .botao1{
+    font-size: 3vw !important;
+  }
+  .rel{
+    top: 0;
+  }
+}
+
+@media (max-width: 500px){
+  .logo{
+    width: 50vw;
+  }
+  .burguer{
+    width: 15vw;
+  }
+  #acess > footer > div:nth-child(2) > p:nth-child(1){
+    margin-top: 10px;
+  }
+  footer.between{
+    font-size: 10px;
+    display: block;
+}
+#acess > footer > div:nth-child(2) > p:nth-child(n){
+  text-align: initial;
+}
+  .rel{
+    left: -9px;
+    top: 0;
+  }
+    #menu-hide > li:nth-child(4) > a > div{
+    font-size: 4vw !important;
+    margin-right: 1vw;
+  }
+    .botao, .botao1{
+    font-size: 5vw !important;
+  }
+}
+
+@keyframes enter{
+  0%{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+  }
+  100%{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes show{
+  0%{
+    display: none;
+  }
+  100%{
+    display: block;
+  }
+}
+
+@keyframes exit{
+  0%{
+    z-index: 1111;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  100%{
+    width: 0;
+    height: 0;
+          z-index: 1111;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+#menu-hide > li:nth-child(n) > a, 
+#menu-hide > li:nth-child(3) > a{
+  height: -webkit-fill-available;
+  height: -moz-fill-available;
+}
+
+#menu-hide > li:nth-child(n){
+  text-align: center;
+}
+
+#menu-hide > li:nth-child(n){
+  width: -webkit-fill-available;
+  width: -moz-fill-available;
+  height: 50px;
+}
+
+#menu-hide > li:nth-child(7) > a{
+  color: white;
+}

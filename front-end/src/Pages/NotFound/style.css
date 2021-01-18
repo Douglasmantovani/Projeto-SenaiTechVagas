@@ -1,0 +1,56 @@
+.not-found-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.not-found-text h3 {
+  margin-top: 1vh;
+}
+
+.not-found-text-img {
+  width: 20vw;
+}
+
+.pagina-principal-link {
+  color: #4361ee;
+}
+
+.not-found-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #07525e;
+  width: 25vw;
+  height: 50vh;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 82vh;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.not-found-all::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.not-found-all {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media (max-width: 600px) {
+  .not-found-img {
+    display: none;
+  }
+  .not-found-text {
+    font-size: 18px;
+  }
+  .not-found-text a {
+    font-size: 18px;
+  }
+}

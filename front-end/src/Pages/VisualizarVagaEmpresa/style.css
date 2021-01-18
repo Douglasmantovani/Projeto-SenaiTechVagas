@@ -1,0 +1,120 @@
+.BannerVizualizarVagaEmpresa{
+    text-align: center;
+    background-image: url("../../assets/esperoquesejaessetamanho.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 5vh;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.imgperfilInscricao{
+    width: 50px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.AprovarRecusar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2vh;
+}
+
+.AprovarRecusar>button{
+height: 36px;
+width: 107px;
+color: white;
+border: none;
+border-radius: 5px;
+
+}
+
+.Aprovar{
+    background-color: #00982B;
+}
+
+.Recusar{
+    background-color: #FD0F00;
+}
+
+.ListaDeInscicoes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bodyPartVizualizarVagaEmpresa{
+    background-color: #E5E5E5;
+}
+
+
+.Inscricao{
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.CabecaInscricao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.CorpoInscricao{
+    text-align: center;
+    padding: 2vh;
+    width: 100%;
+}
+
+.CabecaInscricao>img{
+    width: 70px;
+    height: 70px;
+}
+
+.tagBoxInscrito{
+    width: 80%;
+}
+
+.btAprovados{
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: red;
+    margin-bottom: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#root > div > div.ListaDeInscicoes > div:nth-child(n) > div.CorpoInscricao > div:nth-child(n){
+    width: 90%;
+}
+
+.textRight{
+    margin-right: 20px;
+    text-align: end;
+}
+
+.preto div.BannerVizualizarVagaEmpresa > h1,
+.preto .BannerVizualizarVagaEmpresa{
+    background: transparent !important;
+}
+
+.preto .btAprovados{
+    color: yellow !important;
+    text-decoration: underline;
+}
+
+.maior .btAprovados{
+    font-size: 16px !important;
+}
+
